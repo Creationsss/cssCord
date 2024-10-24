@@ -7,7 +7,7 @@
     --gDM-border-radius: 12px;
 }
 
-[class^="memberInner"]:has(svg > rect) {
+[class*="content"] > div > [class*="layout_"] {
     border-radius: var(--gDM-border-radius);
     margin: 0.3px;
 }
