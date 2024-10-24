@@ -7,7 +7,7 @@
     --gDM-border-radius: 12px;
 }
 
-[class^="link_"]:has(svg > rect) {
+ul > li > [class*="interactive_"] {
     border-radius: var(--gDM-border-radius);
     margin: 0.3px;
 }
