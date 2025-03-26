@@ -27,3 +27,5 @@ div > [class*="layout_"] {
 [class^="memberInner"]:has([mask*="streaming"], [fill="#3f2158"]) {
     background: var(--gDM-streaming);
 }
+/* make the pill fill all of the memberlist */
+[class*="memberInner_"][class*="layout_"] {width: 100%}
