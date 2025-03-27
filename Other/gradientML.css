@@ -1,3 +1,4 @@
+/* ML */
 :root {
     --gDM-online: linear-gradient(to right, rgb(68, 105, 68) , transparent);
     --gDM-offline: linear-gradient(to right, rgb(66, 66, 66) , transparent);
@@ -12,16 +13,16 @@ div > [class*="layout_"] {
     margin: 0.3px;
 }
 
-[class^="memberInner"]:has([mask*="online"], [fill="#23a55a"]) {
+[class^="memberInner"]:has([mask*="online"], [fill="#43a25a"]) {
     background: var(--gDM-online);
 }
 [class^="memberInner"]:has([mask*="offline"], [fill="#f0b232"]) {
     background: var(--gDM-offline);
 }
-[class^="memberInner"]:has([mask*="dnd"], [fill="#f23f43"]) {
+[class^="memberInner"]:has([mask*="dnd"], [fill="#d83a42"]) {
     background: var(--gDM-dnd);
 }
-[class^="memberInner"]:has([mask*="idle"], [fill="#f0b232"]) {
+[class^="memberInner"]:has([mask*="idle"], [fill="#ca9654"]) {
     background: var(--gDM-idle);
 }
 [class^="memberInner"]:has([mask*="streaming"], [fill="#3f2158"]) {
