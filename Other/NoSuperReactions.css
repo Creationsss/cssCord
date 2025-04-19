@@ -1,6 +1,0 @@
-[class*="reaction"][class*="reactionMe"] {border-color: var(--brand-500) !important; background-color: var(--brand-experiment-15a) !important;}
-[class*="reactionCount"] {color: var(--interactive-normal) !important;}
-[class*="effectsWrapper"] {display: none;}
-[class^="burstGlow"], [class*="reaction_"], [class*="reaction"][class*="shakeReaction"] {box-shadow: none !important;  animation: none;}
-[class*="reaction_"] {background: var(--background-secondary) !important;}
-[class*="hideEmoji"] {opacity: 1;}
