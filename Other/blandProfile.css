@@ -18,3 +18,5 @@
     --theme-base-color-amount: unset !important;
     --theme-text-color-amount: unset !important;
 }
+
+div[class*="nameplated_"] > div[class*="container"][style*="background"] {display: none;}
