@@ -19,4 +19,7 @@
     --theme-text-color-amount: unset !important;
 }
 
-div[class*="nameplated_"] > div[class*="container"][style*="background"] {display: none;}
+div[class*="nameplated_"] > div[class*="container"][style^="background"],
+li[class*="channel_"][class*="dm_"][role="listitem"] > div > div[class*="container"][style^="background"] {
+    display: none;
+}
