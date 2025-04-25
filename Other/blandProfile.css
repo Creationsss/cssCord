@@ -1,10 +1,10 @@
 /* bland profiles */
-[class*="avatarDecoration"],
-[class*="profileEffects"] {
+[class^="avatarDecoration"],
+[class^="profileEffects"] {
     display: none;
 }
 
-[class*="custom-theme-background custom-user-profile-theme"] {
+[class$="custom-theme-background custom-user-profile-theme"] {
     --profile-gradient-primary-color: var(--background-surface-high) !important;
     --profile-gradient-secondary-color: var(--background-surface-high) !important;
     --profile-gradient-overlay-color: rgba(0, 0, 0, 0) !important;
