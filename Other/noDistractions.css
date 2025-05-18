@@ -32,3 +32,12 @@ div[style*="https://cdn.discordapp.com/assets/content/5d02fdeea"]  {
 div[class*="subText"] > div > svg[class*="questsIcon"] {
     display: none;
 }
+
+/* gift and launch activity button in channel chat input */
+/* div[class^="channelBottomBarArea_"] > */
+div[class^="channelTextArea_"] > div > div[class^="inner_"] > div[class^="buttons"] {
+    div[class^="channelAppLauncher_"],
+    > button {
+        display: none;
+    }
+}
