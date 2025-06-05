@@ -19,9 +19,21 @@
     --theme-text-color-amount: unset !important;
 }
 
+/* nameplates */
 /* for member list */
 div[class*="nameplated_"] > div[class^="container"][style^="background"],
 /* for dm list */
 li[class*="dm_"][role="listitem"] > div > div[class^="container"][style^="background"] {
     display: none;
+}
+
+/* remove gradient glow in chat and member list */
+span[class*="usernameGradient_"] {
+    color: color-mix(in lab, var(--custom-gradient-color-1), var(--custom-gradient-color-2));
+    background: none;
+    -webkit-text-fill-color: initial;
+}
+
+span[class^="nameGlow"] {
+      display: none;
 }
