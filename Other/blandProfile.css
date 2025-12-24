@@ -21,10 +21,29 @@
 
 /* nameplates */
 /* for member list */
-div[class*="nameplated_"] > div[class^="container"][style^="background"],
+div[class*="nameplated"] > div[class*="container"][style*="background"],
 /* for dm list */
-li[class*="dm_"][role="listitem"] > div > div[class^="container"][style^="background"] {
+li[class*="dm_"][role="listitem"] > div > div[class*="container"][style*="background"] {
     display: none;
+}
+
+/* disable custom fonts */
+/* for member list */
+span[class*="dnsFont"] {
+    font-family: inherit !important;
+}
+/* for dm list */
+div[class*="dnsFont"] {
+    font-family: inherit !important;
+}
+
+/* remove custom color in dm list */
+div[class*="dnsFont"] span[class*="innerContainer"] {
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+    -webkit-text-fill-color: inherit !important;
+    color: inherit !important;
 }
 
 /* remove gradient glow in chat and member list */
